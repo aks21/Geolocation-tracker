@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Geolocation tracker",
+  "version": "1.0",
+  "permissions": ["offscreen","geolocation","identity","identity.email","enterprise.deviceAttributes"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "offscreen.html",
+    "default_icon": "images/grey.png"
+  }
+  }
